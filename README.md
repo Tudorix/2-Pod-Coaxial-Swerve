@@ -1,5 +1,5 @@
 # 2-Pod-Coaxial-Swerve-Robot
-![2-Pod-Coaxial-Swerve-Robot](Media/Final.jpeg)
+![2-Pod-Coaxial-Swerve-Robot](Media/Final (1).jpeg)
 
 A 2-pod coaxial swerve robot based on an ESP8266. The robot uses servos to rotate the swerve pods and 12V DC motors to drive the wheels, with control handled through a wireless webpage interface.
 
