@@ -20,10 +20,10 @@ Motor driver
 Robot chassis
 Power supply
 
-![2-Pod-Coaxial-Swerve-Robot](Media/Final%20(1).jpeg)
-
 # How it works
 Each swerve pod can rotate independently using a servo, while a 12V DC motor drives the wheel. The ESP8266 hosts a webpage that allows the robot to be controlled wirelessly, sending commands for steering and movement.
+
+![2-Pod-Coaxial-Swerve-Robot](Media/Final%20(1).jpeg)
 
 # Setup
 Assemble the chassis and swerve pods
