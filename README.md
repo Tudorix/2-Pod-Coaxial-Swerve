@@ -1,38 +1,40 @@
-# 2-Pod-Coaxial-Swerve-Robot
-![2-Pod-Coaxial-Swerve-Robot](Media/Final%20(3).jpeg)
+# 2 Pod Coaxial Swerve Robot
 
-A 2-pod coaxial swerve robot based on an ESP8266. The robot uses servos to rotate the swerve pods and 12V DC motors to drive the wheels, with control handled through a wireless webpage interface.
+![2 Pod Coaxial Swerve Robot](Media/Final%20(3).jpeg)
 
-Watch Demo: https://youtu.be/DWZEsQWnoUQ
+A simple 2-pod coaxial swerve drive robot built using an ESP8266, servo motors and 12V DC motors.
 
-# Features
-2-pod coaxial swerve drive
-ESP8266-based control
-Wireless control through a webpage
-Servo-based pod rotation
-12V DC motors for movement
+Each pod can rotate independently using a servo while a DC motor drives the wheel. The robot is controlled wirelessly through a webpage hosted on the ESP8266, using an Xbox One controller connected to a phone or laptop.
 
-# Hardware
-ESP8266
-Servo motors
-12V DC motors
-Motor driver
-Robot chassis
-Power supply
+Watch demo: https://youtu.be/DWZEsQWnoUQ
 
-# How it works
-Each swerve pod can rotate independently using a servo, while a 12V DC motor drives the wheel. The ESP8266 hosts a webpage that allows the robot to be controlled wirelessly, sending commands for steering and movement.
+## What I learned
 
-![2-Pod-Coaxial-Swerve-Robot](Media/Final%20(1).jpeg)
+- Basics of swerve drive kinematics
+- Controlling multiple motors and servos simultaneously
+- Wireless robot control using an ESP8266
+- Building a webpage interface for robot control
+- Mechanical design and CAD modeling for custom drive modules
 
-# Setup
-Assemble the chassis and swerve pods
-Connect the servos and DC motors to the ESP8266 and motor driver
-Upload the code
-Connect to the control webpage
-Drive the robot wirelessly
+## Challenges
 
-# Notes
-Servo calibration is important for accurate pod alignment
-The project explores the basics of swerve drive mechanics and control
-The webpage interface makes the robot easy to control from a phone or laptop with a Bluetooth controller (I used a Xbox one controller)
+- Aligning and calibrating the swerve pods correctly
+- Coordinating steering and driving at the same time
+- Designing compact coaxial drive pods
+- Reducing wobble and friction in the steering system
+
+## Limitations
+
+- The chassis material is not very rigid under load
+- The servos are not perfectly smooth or precise
+- The DC motors are relatively large for the robot size
+- Steering response could be faster and more accurate
+
+## Possible Improvements
+
+- CNC machining the chassis from a stronger material
+- Using smoother and more precise servos
+- Replacing the DC motors with more compact alternatives
+- Improving the controller and webpage interface
+- Adding encoders for closed-loop steering control
+- Improving the mechanical design for better reliability
